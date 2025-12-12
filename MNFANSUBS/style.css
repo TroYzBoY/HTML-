@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 0 150px 30px;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.header {
+    background: #1c1c1c;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    border-bottom: 1px solid #3a3a3a;
+    border-left: 1px solid #3a3a3a;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #999;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 18px;
+    color: #999;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right i {
+    color: #c8c8c8;
+    font-size: 18px;
+    padding: 0 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #3a3a3a;
+    border-left: 1px solid #3a3a3a;
+}
+
+
+.breadcrumb {
+    padding: 20px 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.breadcrumb-home {
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+.filters {
+    background-color: #2a2a2a;
+    padding: 15px;
+    margin: 0 150px 15px;
+    border-radius: 6px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-input, .filter-select {
+    flex: 1;
+    min-width: 20px;
+    padding: 12px 15px;
+    background-color: #3a3a3a;
+    border: 1px solid #4a4a4a;
+    border-radius: 6px;
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #b0b0b0;
+}
+
+.anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.anime-poster {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+}
+
+
+.footer {
+    border-top: 1px solid #333;
+    margin-top: 50px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-center {
+    color: #888;
+}
+
+.social a {
+    color: #999;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: 0.2s;
+}
