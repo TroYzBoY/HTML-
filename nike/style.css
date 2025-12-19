@@ -96,9 +96,6 @@ input:focus {
     background-color: rgb(199, 199, 199);
 }
 
-.text li::before {
-    content: "💘";
-}
 
 
 .zurag2 {
@@ -181,6 +178,10 @@ input:focus {
     border-bottom: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 @media (max-width:600px) {
     .gg {
         height: 100px;
@@ -204,9 +205,8 @@ input:focus {
     .logo {
         display: flex;
         align-items: center;
-        height: 100px;
-        width: 100px;
-
+        width: 50px;
+        height: 50px;
     }
 
     .logo img {
